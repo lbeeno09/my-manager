@@ -1,0 +1,22 @@
+.timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.clock {
+  margin: auto;
+  display: block;
+}
+
+.timer-text {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.timer-symbol:hover {
+  fill: #626785;
+  transition: transform 0.5s ease, fill 0.2s ease;
+}

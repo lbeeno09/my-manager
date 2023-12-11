@@ -1,0 +1,10 @@
+.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.completed .unfinished {
+  display: flex;
+  align-self: flex-end;
+  margin-top: 10px;
+}
